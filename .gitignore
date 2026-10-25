@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+output/
+my-run/
+seed43/
+seed44/
+measured/
+final-run/
+.DS_Store
+release42/
+release43/
+release44/
