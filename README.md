@@ -51,7 +51,7 @@ Python 3.10+ and PyTorch. The recorded run used Python 3.12.14, PyTorch 2.14.0 a
 git clone https://github.com/eluxsana/recall-lab.git
 cd recall-lab
 python3 -m venv .venv
-# Activate your environment using your shell's normal command.
+source .venv/bin/activate  # macOS / Linux
 python3 -m pip install -r requirements.txt
 python3 -m unittest -v
 python3 verify.py
